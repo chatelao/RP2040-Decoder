@@ -6,14 +6,14 @@
  */
 
 #pragma once
-#include "string.h"
-#include "pico/float.h"
-#include "pico/stdlib.h"
-#include "pico/multicore.h"
-#include "pico/printf.h"
-#include "hardware/pwm.h"
-#include "hardware/adc.h"
-#include "hardware/flash.h"
+#include <string.h>
+#include <pico/float.h>
+#include <pico/stdlib.h>
+#include <pico/multicore.h>
+#include <pico/printf.h>
+#include <hardware/pwm.h>
+#include <hardware/adc.h>
+#include <hardware/flash.h>
 
 
 // here you can enable printf debugging (needs extra soldering and you have to enable uart in the cmake configuration)
